@@ -62,9 +62,18 @@ ul{
 }
 .header-btn a:hover {
     background: #c4ad88;
-}
-/* .header-btn a:hover {
-    background: #ceaf7f;
     color: white;
-} */
+}
+
 /* header css end */
+
+
+@media (min-width:320px) and (max-width:767px) {
+
+    /* header css start */
+
+        
+
+    /* header css end */
+    
+}
