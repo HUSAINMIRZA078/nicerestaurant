@@ -1,0 +1,70 @@
+/* header css start */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Baskerville", serif;
+
+}
+a,p{
+    font-family: "Roboto", sans-serif;
+}
+
+ header {
+    background: black;
+    padding: 20px 0px;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#teb li {
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #f4f7fa;
+}
+#teb li {
+    display: inline;
+    margin: 0px 17px;
+}
+#teb a {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.header-btn a {
+    background: #ceaf7f;
+    padding: 10px 25px;
+    border-radius: 24px;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    transition: 0.5s;
+}
+.logo i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #ceaf7f;
+}
+.header-btn a:hover {
+    background: #c4ad88;
+}
+/* .header-btn a:hover {
+    background: #ceaf7f;
+    color: white;
+} */
+/* header css end */
