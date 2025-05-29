@@ -28,6 +28,7 @@ function Opan(){
     closedata.style.display="block"
     bodydata = document.getElementById("big-main")
     bodydata.style.opacity="0.5";
+    bodydata.style.display="block";
 }
 
 function Close(){
@@ -39,4 +40,5 @@ function Close(){
     closedata.style.display="none"
     bodydata = document.getElementById("big-main")
     bodydata.style.opacity="0";
+     bodydata.style.display="none";
 }
