@@ -98,6 +98,9 @@ ul{
     margin-right: 5px;
     color: #ceaf7f;
 }
+.m-icon{
+     color: white;
+}
 #bar {
     display: block;
 }

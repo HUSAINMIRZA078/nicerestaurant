@@ -27,3 +27,12 @@ function Opan(){
     closedata = document.getElementById("close")
     closedata.style.display="block"
 }
+
+function Close(){
+    uldata = document.getElementById("teb")
+    uldata.style.display="none"
+    bardata = document.getElementById("bar")
+    bardata.style.display="block"
+    closedata = document.getElementById("close")
+    closedata.style.display="none"
+}
