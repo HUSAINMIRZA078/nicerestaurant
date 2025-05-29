@@ -75,13 +75,14 @@ ul{
 
     /* header css start */
 
-    #teb {
+#teb {
     position: absolute;
     left: 18px;
     background: red;
-    top: 100px;
+    top: 80px;
     width: 90%;
     padding: 10px 15px;
+    display: none;
 }
 #teb li {
     display: block;
@@ -97,11 +98,11 @@ ul{
     margin-right: 5px;
     color: #ceaf7f;
 }
-.header-btn a {
-    display: none;
-}
 #bar {
     display: block;
+}
+.header-btn {
+    display: none;
 }
 
     /* header css end */
