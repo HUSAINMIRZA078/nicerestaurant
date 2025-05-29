@@ -117,7 +117,7 @@ ul{
     z-index: 999;
     opacity: 1;
 }
-#big-main::before {
+#big-main{
     position: absolute;
     content: "";
     background: black;
