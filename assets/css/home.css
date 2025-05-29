@@ -74,7 +74,7 @@ ul{
 
     #teb {
     position: absolute;
-    left: 15px;
+    left: 18px;
     background: red;
     top: 100px;
     width: 90%;
@@ -83,6 +83,19 @@ ul{
 #teb li {
     display: block;
     margin: 12px 0px;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 22px;
+    color: #f4f7fa;
+}
+.logo i {
+    font-size: 17px;
+    margin-right: 5px;
+    color: #ceaf7f;
+}
+.header-btn a {
+    display: none;
 }
 
     /* header css end */
