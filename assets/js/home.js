@@ -20,7 +20,7 @@
 
 
 function Opan(){
-    uldata = document.getElementById("tab")
+    uldata = document.getElementById("teb")
     uldata.style.display="block"
     bardata = document.getElementById("bar")
     bardata.style.display="none"
