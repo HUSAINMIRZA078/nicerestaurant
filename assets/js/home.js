@@ -38,5 +38,5 @@ function Close(){
     closedata = document.getElementById("close")
     closedata.style.display="none"
     bodydata = document.getElementById("big-main")
-    bodydata.style.opacity="0.5";
+    bodydata.style.opacity="0";
 }
