@@ -74,17 +74,17 @@ ul{
 @media (min-width:320px) and (max-width:767px) {
 
     /* header css start */
-
 #teb {
     position: absolute;
     left: 18px;
-    background: red;
+    background: rgb(33 37 41 / 80%);
     top: 68px;
     width: 90%;
     padding: 10px 15px;
     display: none;
     z-index: 999;
     opacity: 1;
+    border-radius: 5px;
 }
 #teb li {
     display: block;
