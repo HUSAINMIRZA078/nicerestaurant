@@ -83,6 +83,7 @@ ul{
     width: 90%;
     padding: 10px 15px;
     display: none;
+    z-index: 999;
 }
 #teb li {
     display: block;
@@ -112,6 +113,16 @@ ul{
     top: 45px;
     color: white;
     right: 20px;
+    z-index: 999;
+}
+#big-main::before {
+    position: absolute;
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    display: none;
 }
 
     /* header css end */
