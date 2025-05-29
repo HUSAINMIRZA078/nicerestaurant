@@ -27,7 +27,7 @@ function Opan(){
     closedata = document.getElementById("close")
     closedata.style.display="block"
     bodydata = document.getElementById("big-main")
-    bodydata.style.display="block"
+    bodydata.style.opacity="0.5";
 }
 
 function Close(){
@@ -37,6 +37,6 @@ function Close(){
     bardata.style.display="block"
     closedata = document.getElementById("close")
     closedata.style.display="none"
-     bodydata = document.getElementById("big-main")
-    bodydata.style.display="none"
+    bodydata = document.getElementById("big-main")
+    bodydata.style.opacity="0.5";
 }
