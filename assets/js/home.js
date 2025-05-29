@@ -19,4 +19,11 @@
 // };
 
 
-
+function Opan(){
+    uldata = document.getElementById("tab")
+    uldata.style.display = "block"
+    bardata = document.getElementById("bar")
+    bardata.style.display = "none"
+    closedata = document.getElementById("close")
+    closedata.style.display = "block"
+}
