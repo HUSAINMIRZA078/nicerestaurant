@@ -64,6 +64,9 @@ ul{
     background: #c4ad88;
     color: white;
 }
+#bar,#close {
+    display: none;
+}
 
 /* header css end */
 
@@ -96,6 +99,9 @@ ul{
 }
 .header-btn a {
     display: none;
+}
+#bar {
+    display: block;
 }
 
     /* header css end */
