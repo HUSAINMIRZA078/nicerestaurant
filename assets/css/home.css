@@ -119,6 +119,7 @@ a.btn-in-one {
     padding: 15px 40px;
     font-weight: 600;
     border-radius: 5px;
+    margin-top: 10px;
 }
 a.btn-in {
     background: none;
@@ -126,6 +127,7 @@ a.btn-in {
     padding: 12px 30px;
     margin-left: 10px;
     color: white;
+    margin-top: 10px;
 }
 
 /* home css end */
